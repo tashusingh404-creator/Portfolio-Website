@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Tashu – Product Designer & Photographer. Crafting meaningful digital experiences and capturing moments through a lens." />
+  <title>Archana Singh | Product Designer & Photographer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ==============================
+       NAVIGATION
+  ================================= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-initials">AS</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-cta" id="nav-cta"
+        onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+        Hire Me
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobile-nav">
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ==============================
+       HERO SECTION
+  ================================= -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/images/WhatsApp Image 2026-03-07 at 11.03.49 PM.jpeg" alt="Background" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for work
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="hero-name">Archana Singh</span>
+      </h1>
+      <p class="hero-subtitle">Product Designer &amp; Photographer</p>
+      <p class="hero-description">
+        Bridging the gap between functional product solutions and high impact visual narratives. Whether solving complex
+        problems through design or documenting the world through a lens, the focus remains on one goal: building
+        seamless user journeys and timeless imagery.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="view-work-btn">
+          View My Work
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          Get in Touch
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       ABOUT SECTION
+  ================================= -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Cell 1: Profile Image -->
+        <div class="about-image-wrapper" data-animate="fade-left">
+          <div class="about-image-container">
+            <img src="assets/images/Profile image .jpeg" alt="Archana Singh - Product Designer" class="about-image" />
+            <div class="about-image-accent"></div>
+          </div>
+        </div>
+
+        <!-- Cell 2: Who I Am -->
+        <div class="about-who" data-animate="fade-right">
+          <h3 class="about-subtitle">Who I Am</h3>
+          <p class="about-text">
+            I am a Product Designer and Photographer from Varanasi, currently based at MIT-WPU Pune. My journey began
+            with a natural drive toward creativity, which led me to the world of design. Since then, I've focused on
+            blending
+            technical foundations with a strong visual narrative.
+          </p>
+          <p class="about-text">
+            My perspective shifted significantly after joining the university's premier photography club. Managing
+            large scale events and leading visual documentation didn't just sharpen my eye for composition it
+            broadened my understanding of marketing, event management, and effective communication. This experience
+            taught me how to view design through a wider lens, ensuring that every project I touch is both functional
+            and impactful.
+          </p>
+          <p class="about-text">
+            I've dedicated myself to studio projects and freelance work, allowing me to apply design thinking to
+            real-world challenges. I am constantly evolving my toolkit through specialized courses, mastering new
+            software, and solidifying my design basics.
+          </p>
+        </div>
+
+        <!-- Cell 3: My Skills (left column, row 2) -->
+        <div class="skills-section">
+          <h3 class="about-subtitle">My Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Adobe Photoshop</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Adobe Illustrator</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Adobe Lightroom</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Blender</span>
+                <span class="skill-percent">40%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="40"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Shaper 3D</span>
+                <span class="skill-percent">35%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="35"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Rhino (Grasshopper)</span>
+                <span class="skill-percent">35%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="35"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">AI Prompting</span>
+                <span class="skill-percent">55%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="55"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Digital Marketing</span>
+                <span class="skill-percent">45%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="45"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Figma</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-animate="skill">
+              <div class="skill-header">
+                <span class="skill-name">Canva</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cell 4: Tools I Use (right column, row 2) -->
+        <div class="tools-section">
+          <h3 class="about-subtitle">Tools I Use</h3>
+          <div class="tools-grid">
+            <div class="tool-badge">
+              <div class="tool-icon tool-ps">Ps</div>
+              <span>Photoshop</span>
+            </div>
+            <div class="tool-badge">
+              <div class="tool-icon tool-ai">Ai</div>
+              <span>Illustrator</span>
+            </div>
+            <div class="tool-badge">
+              <div class="tool-icon tool-lr">Lr</div>
+              <span>Lightroom</span>
+            </div>
+            <div class="tool-badge">
+              <div class="tool-icon tool-blender">Bl</div>
+              <span>Blender</span>
+            </div>
+            <div class="tool-badge">
+              <div class="tool-icon tool-shaper">S3</div>
+              <span>Shaper 3D</span>
+            </div>
+            <div class="tool-badge">
+              <div class="tool-icon tool-rhino">Rh</div>
+              <span>Rhino</span>
+            </div>
+            <div class="tool-badge">
+              <div class="tool-icon tool-figma">Fi</div>
+              <span>Figma</span>
+            </div>
+            <div class="tool-badge">
+              <div class="tool-icon tool-canva">Cv</div>
+              <span>Canva</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.about-grid -->
+    </div><!-- /.container -->
+  </section>
+
+  <!-- ==============================
+       PROJECTS SECTION
+  ================================= -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header centered">
+        <span class="section-tag">SELECTED WORK</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <!-- Featured Large Project -->
+      <div class="project-featured" data-animate="fade-up">
+        <a href="assets/pdfs/Digital Sketches.pdf" target="_blank" rel="noopener" class="project-featured-link"
+          aria-label="View Digital Sketches case study PDF">
+          <div class="project-featured-img-wrap">
+            <img src="assets/images/cover_digital_sketches.png" alt="Digital Sketches design project"
+              class="project-featured-img" />
+            <div class="project-featured-overlay">
+              <div class="view-case-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                </svg>
+                View Case Study
+              </div>
+            </div>
+          </div>
+          <div class="project-featured-info">
+            <span class="project-category">DESIGN</span>
+            <h3 class="project-featured-title">Digital Sketches</h3>
+            <p class="project-featured-desc">A curated collection of digital sketches and illustrations exploring form,
+              composition, and creative visual storytelling.</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Project Grid (3 cards) -->
+      <div class="project-grid">
+
+        <div class="project-card" data-animate="fade-up" style="--delay: 0s">
+          <a href="assets/pdfs/Hospital.pdf" target="_blank" rel="noopener" class="project-card-link"
+            aria-label="View Hospital project case study PDF">
+            <div class="project-card-img-wrap">
+              <img src="assets/images/cover_hospital.png" alt="Hospital project design" class="project-card-img" />
+              <div class="project-card-overlay">
+                <div class="card-view-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                  </svg>
+                  Open PDF
+                </div>
+              </div>
+            </div>
+            <div class="project-card-info">
+              <span class="project-category">HEALTHCARE</span>
+              <h3 class="project-card-title">Healthcare at Home</h3>
+              <p class="project-card-desc">A comprehensive design project focused on healthcare space planning, user
+                experience, and patient-centered environments.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card" data-animate="fade-up" style="--delay: 0.1s">
+          <a href="assets/pdfs/Studio Project.pdf" target="_blank" rel="noopener" class="project-card-link"
+            aria-label="View Studio Project case study PDF">
+            <div class="project-card-img-wrap">
+              <img src="assets/images/cover_studio_project.png" alt="Studio Project design" class="project-card-img" />
+              <div class="project-card-overlay">
+                <div class="card-view-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                  </svg>
+                  Open PDF
+                </div>
+              </div>
+            </div>
+            <div class="project-card-info">
+              <span class="project-category">STUDIO PROJECT</span>
+              <h3 class="project-card-title">Research & Redesign</h3>
+              <p class="project-card-desc">A detailed studio project exploring design concepts, creative process, and
+                refined visual solutions.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card" data-animate="fade-up" style="--delay: 0.2s">
+          <a href="assets/pdfs/TRIMMER.pdf" target="_blank" rel="noopener" class="project-card-link"
+            aria-label="View TRIMMER case study PDF">
+            <div class="project-card-img-wrap">
+              <img src="assets/images/cover_trimmer.png" alt="TRIMMER project design" class="project-card-img" />
+              <div class="project-card-overlay">
+                <div class="card-view-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                  </svg>
+                  Open PDF
+                </div>
+              </div>
+            </div>
+            <div class="project-card-info">
+              <span class="project-category">PRODUCT DESIGN</span>
+              <h3 class="project-card-title">Technical Product Analysis</h3>
+              <p class="project-card-desc">A product design case study exploring form, function, and user-focused design
+                for a grooming product.</p>
+            </div>
+          </a>
+        </div>
+
+      </div><!-- /.project-grid -->
+
+    </div><!-- /.container -->
+  </section>
+
+  <!-- ==============================
+       CONTACT SECTION
+  ================================= -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header centered">
+        <span class="section-tag">
+          <span class="tag-dot"></span>
+          LET'S CONNECT
+          <span class="tag-dot"></span>
+        </span>
+        <h2 class="section-title">Start a Conversation</h2>
+        <p class="section-subtitle">Have a project in mind? Let's discuss how we can work together</p>
+      </div>
+
+      <div class="contact-form-wrapper" data-animate="fade-up">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-input" placeholder="What's this about?"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">
+              Message
+              <span class="char-counter" id="char-counter">(0/500)</span>
+            </label>
+            <textarea id="message" name="message" class="form-input form-textarea"
+              placeholder="Tell me about your project..." maxlength="500" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit" id="submit-btn">
+            Send Message
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </button>
+          <div class="form-success" id="form-success">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            Message sent successfully! I'll get back to you soon.
+          </div>
+        </form>
+      </div><!-- /.contact-form-wrapper -->
+
+      <!-- Contact Info Row -->
+      <div class="contact-info-row">
+        <a href="mailto:tashusingh404@gmail.com" class="contact-info-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+          tashusingh404@gmail.com
+        </a>
+        <div class="contact-divider"></div>
+        <a href="tel:+918299044184" class="contact-info-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          8299044184
+        </a>
+        <div class="contact-divider"></div>
+        <a href="https://www.linkedin.com/in/archana-singh-275603273" target="_blank" rel="noopener"
+          class="contact-info-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          LinkedIn
+        </a>
+        <div class="contact-divider"></div>
+        <div class="contact-info-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          India
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+  </section>
+
+  <!-- ==============================
+       FOOTER
+  ================================= -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+
+      <!-- Left: Brand -->
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-initials footer-logo-initials">AS</span>
+          <span class="footer-logo-name">Archana Singh</span>
+        </div>
+        <p class="footer-tagline">Product Designer crafting experiences that matter</p>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/archana-singh-275603273" target="_blank" rel="noopener"
+            class="social-icon" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/camera.banaraswala?igsh=aDAzeWZoNjQwZmo5" target="_blank" rel="noopener"
+            class="social-icon" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
+          <a href="mailto:tashusingh404@gmail.com" class="social-icon" aria-label="Gmail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </a>
+          <a href="https://github.com/tashusingh404-creator" target="_blank" rel="noopener" class="social-icon"
+            aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Middle: Quick Links -->
+      <div class="footer-links">
+        <h4 class="footer-links-title">QUICK LINKS</h4>
+        <ul class="footer-links-list">
+          <li><a href="#projects" class="footer-link">Projects</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Right: Newsletter -->
+      <div class="footer-newsletter">
+        <h4 class="footer-links-title">NEWSLETTER</h4>
+        <p class="footer-newsletter-text">Subscribe for design insights and updates</p>
+        <form class="newsletter-form" id="newsletter-form" novalidate>
+          <div class="newsletter-input-wrap">
+            <input type="email" name="newsletter-email" id="newsletter-email" placeholder="your@email.com"
+              class="newsletter-input" required />
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </button>
+          </div>
+          <div class="newsletter-success" id="newsletter-success">Thanks for subscribing!</div>
+        </form>
+      </div>
+
+    </div><!-- /.footer-container -->
+
+    <div class="footer-bottom" style="justify-content: center;">
+      <p class="footer-copy">© 2026 Archana Singh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
