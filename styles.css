@@ -553,7 +553,7 @@ ul {
 
 .hero-description {
   font-size: clamp(0.88rem, 1.5vw, 0.98rem);
-  color: rgba(255, 255, 255, .72);
+  color: #ffffff;
   line-height: 1.75;
   max-width: 480px;
   margin-bottom: 36px;
@@ -1495,6 +1495,14 @@ ul {
     padding-left: var(--container-px);
     padding-right: var(--container-px);
     max-width: 100%;
+  }
+
+  /* Make overlay fully dark on mobile so all hero text (incl. Archana Singh) is always visible */
+  .hero-overlay {
+    background: linear-gradient(to bottom,
+        rgba(17, 24, 39, 0.80) 0%,
+        rgba(17, 24, 39, 0.90) 40%,
+        rgba(17, 24, 39, 0.95) 100%);
   }
 
   .hero-title {
